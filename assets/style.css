@@ -1,0 +1,65 @@
+
+* {
+  outline-offset: .15rem;
+  X-text-decoration-thickness: 2px;
+  text-underline-offset: .2rem;
+}
+
+body {
+  background-color: #fdfdfd;
+  color: #222;
+  font: 1rem/1.6 sans-serif;
+  line-height: 1.4;
+  margin: auto;
+  max-width: 32rem;
+  min-height: 12rem;
+  min-width: 14rem;
+  padding: 1rem 1.5rem;
+}
+
+.h1,
+h1 {
+  font-size: 2rem;
+  font-weight: normal;
+  margin: .67rem 0;
+}
+
+.h2,
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: .83rem 0;
+}
+
+.p,
+p {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+.button-ish,
+button {
+  background-color: buttonface;
+  border: 2px outset buttonborder;
+  border-radius: .2rem;
+  color: buttontext;
+  cursor: default;
+  display: inline-block;
+  font-size: inherit;
+  padding: .4rem 1rem;
+}
+
+.link-ish {
+  color: blue;
+  cursor: pointer;
+}
+
+.link-ish:hover {
+  text-decoration: underline;
+}
+
+img {
+  border: 2px solid #ccc;
+  border-radius: .3rem;
+  max-height: 450px;
+}

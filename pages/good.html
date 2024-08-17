@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <link href="/assets/style.css" rel="stylesheet">
+
+  <title> Good &mdash; Accessibility Techniques </title>
+
+  <h1> Accessibility Techniques </h1>
+  <h2> Good </h2>
+
+  <p> This page in the extension demonstrates good accessibility techniques. </p>
+
+  <p> Semantic HTML markup is used throughout. </p>
+
+  <p> Above are headings created using native <code>&lt;h1></code> and <code>&lt;h2></code> elements. </p>
+
+  <p>
+    Below is a button created using a native <code>&lt;button></code> element.
+    This means that it is focusable with a <a href="https://webaim.org/techniques/keyboard/" target="WebAIM">keyboard</a> and is identified to assistive technologies as a <q>button</q>.
+    The <code>click</code> event is fired with both the mouse and the <kbd>Space</kbd> and <kbd>Enter</kbd> keys.
+  </p>
+
+  <p>
+    <button> Click me! </button>
+  </p>
+
+  <p>
+    <a href="#"> Click me! </a>
+  </p>
+
+  <p>
+    Next we have a functional image, with a suitable text alternative provided in its <code>alt</code> attribute.
+  </p>
+
+  <p>
+    <a href="https://en.wikipedia.org/wiki/Tree" target="WP">
+      <img alt="Ash tree, on Wikipedia" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg/450px-Ash_Tree_-_geograph.org.uk_-_590710.jpg">
+    </a>
+  </p>
+
+  <nav>
+    <ul>
+      <li><a href="/pages/good.html" target="good">The Good</a></li>
+      <li><a href="/pages/bad.html"  target="bad" >The Bad</a></li>
+    </ul>
+  </nav>
+
+  <script src="/assets/script.js"></script>
+
+</html>

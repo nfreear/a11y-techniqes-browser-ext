@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "name": "a11y-techniques-ext",
+  "scripts": {
+    "zip": "zip -r extension.zip manifest.json assets pages"
+  }
+}

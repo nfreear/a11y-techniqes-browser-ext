@@ -1,0 +1,41 @@
+<html>
+  <link href="/assets/style.css" rel="stylesheet">
+
+  <div class="h1"> Accessibility Techniques </div>
+  <div class="h2"> Bad </div>
+
+  <div class="p"> This page in the extension demonstrates bad accessibility. </div>
+
+  <div class="p"> Above are <code>&lt;div></code> elements styled to look like headings. </div>
+
+  <div class="p">
+    Below is a generic <code>&lt;span></code> element styled to look like a button.
+    This means that it is <em>not</em> focusable with a <a href="https://webaim.org/techniques/keyboard/" target="WebAIM">keyboard</a> and is <em>not</em> identified to assistive technologies as a <q>button</q>.
+    The <code>click</code> event is only fired with the mouse, <em>not</em> with the <kbd>Space</kbd> and <kbd>Enter</kbd> keys.
+  </div>
+
+  <div class="p">
+    <span class="button-ish"> Click me! </span>
+  </div>
+
+  <div class="p">
+    <span class="link-ish"> Click me! </span>
+  </div>
+
+  <div class="p">
+    Next is an informative image of a tree, without an <code>alt</code> attribute.
+    The consequence is that non-visual users will not be presented with a meaningful text alternative to the image.
+  </div>
+
+  <div class="p">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg/450px-Ash_Tree_-_geograph.org.uk_-_590710.jpg">
+  </div>
+
+  <ul>
+    <li><a href="/pages/good.html" target="good">Good</a></li>
+    <li><a href="/pages/bad.html"  target="bad" >Bad</a></li>
+  </ul>
+
+  <script src="/assets/script.js"></script>
+
+</html>
